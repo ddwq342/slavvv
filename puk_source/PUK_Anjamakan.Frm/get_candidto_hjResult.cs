@@ -1,0 +1,312 @@
+using System.Data.Linq.Mapping;
+
+namespace PUK_Anjamakan.Frm;
+
+public class get_candidto_hjResult
+{
+	private int _ID;
+
+	private string _naw_mahafaza;
+
+	private string _malband;
+
+	private string _cood_tasjil;
+
+	private string _naw_tasjil;
+
+	private string _cood_bnka;
+
+	private string _naw_bnka;
+
+	private string _westga;
+
+	private string _naw_karmand;
+
+	private string _taime;
+
+	private string _shwen;
+
+	private int? _hj_1;
+
+	private int? _hj_2;
+
+	private int? _hj_3;
+
+	private int? _hj_4;
+
+	private int? _hj_5;
+
+	private int? _hj_6;
+
+	[Column(Storage = "_ID", DbType = "Int NOT NULL")]
+	public int ID
+	{
+		get
+		{
+			return _ID;
+		}
+		set
+		{
+			if (_ID != value)
+			{
+				_ID = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_naw_mahafaza", DbType = "NVarChar(255)")]
+	public string naw_mahafaza
+	{
+		get
+		{
+			return _naw_mahafaza;
+		}
+		set
+		{
+			if (_naw_mahafaza != value)
+			{
+				_naw_mahafaza = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_malband", DbType = "NVarChar(255)")]
+	public string malband
+	{
+		get
+		{
+			return _malband;
+		}
+		set
+		{
+			if (_malband != value)
+			{
+				_malband = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_cood_tasjil", DbType = "NVarChar(255)")]
+	public string cood_tasjil
+	{
+		get
+		{
+			return _cood_tasjil;
+		}
+		set
+		{
+			if (_cood_tasjil != value)
+			{
+				_cood_tasjil = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_naw_tasjil", DbType = "NVarChar(255)")]
+	public string naw_tasjil
+	{
+		get
+		{
+			return _naw_tasjil;
+		}
+		set
+		{
+			if (_naw_tasjil != value)
+			{
+				_naw_tasjil = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_cood_bnka", DbType = "NVarChar(255)")]
+	public string cood_bnka
+	{
+		get
+		{
+			return _cood_bnka;
+		}
+		set
+		{
+			if (_cood_bnka != value)
+			{
+				_cood_bnka = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_naw_bnka", DbType = "NVarChar(255)")]
+	public string naw_bnka
+	{
+		get
+		{
+			return _naw_bnka;
+		}
+		set
+		{
+			if (_naw_bnka != value)
+			{
+				_naw_bnka = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_westga", DbType = "NVarChar(255)")]
+	public string westga
+	{
+		get
+		{
+			return _westga;
+		}
+		set
+		{
+			if (_westga != value)
+			{
+				_westga = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_naw_karmand", DbType = "NVarChar(255)")]
+	public string naw_karmand
+	{
+		get
+		{
+			return _naw_karmand;
+		}
+		set
+		{
+			if (_naw_karmand != value)
+			{
+				_naw_karmand = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_taime", DbType = "NVarChar(255)")]
+	public string taime
+	{
+		get
+		{
+			return _taime;
+		}
+		set
+		{
+			if (_taime != value)
+			{
+				_taime = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_shwen", DbType = "NVarChar(255)")]
+	public string shwen
+	{
+		get
+		{
+			return _shwen;
+		}
+		set
+		{
+			if (_shwen != value)
+			{
+				_shwen = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_hj_1", DbType = "Int")]
+	public int? hj_1
+	{
+		get
+		{
+			return _hj_1;
+		}
+		set
+		{
+			if (_hj_1 != value)
+			{
+				_hj_1 = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_hj_2", DbType = "Int")]
+	public int? hj_2
+	{
+		get
+		{
+			return _hj_2;
+		}
+		set
+		{
+			if (_hj_2 != value)
+			{
+				_hj_2 = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_hj_3", DbType = "Int")]
+	public int? hj_3
+	{
+		get
+		{
+			return _hj_3;
+		}
+		set
+		{
+			if (_hj_3 != value)
+			{
+				_hj_3 = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_hj_4", DbType = "Int")]
+	public int? hj_4
+	{
+		get
+		{
+			return _hj_4;
+		}
+		set
+		{
+			if (_hj_4 != value)
+			{
+				_hj_4 = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_hj_5", DbType = "Int")]
+	public int? hj_5
+	{
+		get
+		{
+			return _hj_5;
+		}
+		set
+		{
+			if (_hj_5 != value)
+			{
+				_hj_5 = value;
+			}
+		}
+	}
+
+	[Column(Storage = "_hj_6", DbType = "Int")]
+	public int? hj_6
+	{
+		get
+		{
+			return _hj_6;
+		}
+		set
+		{
+			if (_hj_6 != value)
+			{
+				_hj_6 = value;
+			}
+		}
+	}
+}

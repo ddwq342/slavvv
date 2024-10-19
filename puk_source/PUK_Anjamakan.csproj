@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>PUK_Anjamakan</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="PUK_Anjamakan.exe.licenses" />
+    <EmbeddedResource Include="PUK_Anjamakan.exe.licenses" LogicalName="PUK_Anjamakan.exe.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data" />
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\Desktop\Debug\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="DevExpress.XtraEditors.v23.2">
+      <HintPath>..\..\Desktop\Debug\Debug\DevExpress.XtraEditors.v23.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v23.2">
+      <HintPath>..\..\Desktop\Debug\Debug\DevExpress.Data.v23.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v23.2">
+      <HintPath>..\..\Desktop\Debug\Debug\DevExpress.Utils.v23.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
